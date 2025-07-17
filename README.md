@@ -28,13 +28,11 @@ Roamwise/
 
 1. **Clone the Repository**
 
-```bash`
-git clone https://github.com/your-username/Roamwise.git
-cd Roamwise```
+```git clone https://github.com/your-username/Roamwise.git```
+```cd Roamwise```
 
 2. **Run Seeder app**
-```bash`
-python seed_database.py```
+```python seed_database.py```
 
 This reads data from mall_data.json
 Creates a local mall.db SQLite database (if not already present)
